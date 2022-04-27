@@ -1,0 +1,27 @@
+.list-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
+  background-color: #F5F5F5;  
+}
+
+.list-item + .list-item {
+  margin-top: 5px;
+}
+
+.list-item__img {
+  max-height: 100px;
+}
+
+.list-item__title {
+  font-size: 1.05em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.list-item__price {
+  color: #D74D3B;
+}

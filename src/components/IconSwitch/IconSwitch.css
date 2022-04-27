@@ -1,0 +1,13 @@
+.switch-button {
+  display: block;
+  margin-left: auto;
+  padding: 0;
+
+  color: #696969;
+  background: none;   
+  border: 0;
+}
+
+.switch-button span {
+  font-size: 30px;
+}
